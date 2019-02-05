@@ -1,4 +1,4 @@
-FROM ubuntu:zesty
+FROM ubuntu:bionic
 
 RUN apt-get update
 RUN apt-get install -y texlive-xetex texlive-fonts-extra dvipng texlive-latex-recommended \
