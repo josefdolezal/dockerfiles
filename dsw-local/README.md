@@ -16,3 +16,9 @@ To build the application inside the container, run:
 $ docker exec -it dsw bash
 $ <your build command>
 ```
+
+## Orchestration
+
+This dockerfile requires connected mongodb and rabbitmq services.
+Since those are not part of the installation, you are expcted to setup it yourself.
+This can be simplified using attached docker-compose file.
