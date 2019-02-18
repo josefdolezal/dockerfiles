@@ -11,3 +11,5 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y \
             nodejs yarn
 # Install Haskell stack
 RUN curl -sSL https://get.haskellstack.org/ | sh
+
+CMD [ "bash" ]
